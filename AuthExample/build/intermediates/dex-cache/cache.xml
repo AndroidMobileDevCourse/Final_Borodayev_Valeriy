@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/valerijborodaev/Desktop/sandbox/study/java/android/AuthExample/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.2"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="/Users/valerijborodaev/Desktop/sandbox/study/java/android/AuthExample/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3f0c87deabc969785b706e8cc9c29ecc1bf5737d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/valerijborodaev/Desktop/sandbox/study/java/android/AuthExample/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.2"
+        sha1="e53c8f082be3ebea2e81bb88a5a85380ff96a49d">
+        <dex dex="/Users/valerijborodaev/Desktop/sandbox/study/java/android/AuthExample/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0b70e3ed1a45c5b6ecdbe79fffc531bd4f417cc5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/valerijborodaev/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/valerijborodaev/Desktop/sandbox/study/java/android/AuthExample/app/build/intermediates/pre-dexed/release/okhttp-3.2.0_8e44325b50ac18ecb1897acc0f5929f98d5a72b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/valerijborodaev/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/valerijborodaev/Desktop/sandbox/study/java/android/AuthExample/app/build/intermediates/pre-dexed/release/okio-1.6.0_27ad409a37b8faf2599900dc88a7a9ed3d0c37c2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/valerijborodaev/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/valerijborodaev/Desktop/sandbox/study/java/android/AuthExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.2.0_8e44325b50ac18ecb1897acc0f5929f98d5a72b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/valerijborodaev/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/valerijborodaev/Desktop/sandbox/study/java/android/AuthExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_27ad409a37b8faf2599900dc88a7a9ed3d0c37c2/classes.dex" />
+    </item>
+
+</items>
