@@ -43,7 +43,7 @@
     "watch": "jest --watch",
     "lint": "eslint --ext .js ./src",
     "flow": "./node_modules/.bin/flow",
-    "mongo": "mongo ds247047.mlab.com:47047/taxi-mobile-app-db -u frankast -p pass",
+    "mongo": "mongo mongodb://frankast:v1v2v3b4@ds255588.mlab.com:55588/smsc",
     "test": "jest && npm run lint && npm run flow",
     "start-watch": "nodemon ./src/index.js --exec babel-node",
     "start": "./node_modules/.bin/babel-node ./src/index.js"

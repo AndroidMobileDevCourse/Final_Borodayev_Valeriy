@@ -25,7 +25,7 @@ export default class DB {
 
   static openDB(name: DBNames = 'data'): Promise<MongooseConnection> {
     return new Promise((resolve, reject) => {
-      const uri = 'mongodb://127.0.0.1:27017/androidAuth';
+      const uri = 'mongodb://frankast:v1v2v3b4@ds255588.mlab.com:55588/smsc';
       const opts = {};
 
       opts.promiseLibrary = global.Promise;

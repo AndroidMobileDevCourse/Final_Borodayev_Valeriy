@@ -22,14 +22,12 @@ app.use(morgan('tiny'));
 
 // $FlowFixMe
 app.post('/login', async (req, res) => {
-  console.log(req.body);
-
   const { username, password } = req.body;
   const user = await User.findOne({ username });
   if (user && username === user.username && password === user.password) {
     res.send(user);
   } else {
-    res.send({ error: 'wrong credentials or user not found' });
+    res.status(403).send({ error: 'wrong credentials or user not found' });
   }
 });
 
@@ -47,13 +45,13 @@ app.post('/signup', async (req, res) => {
   if (user && user) {
     res.send(user);
   } else {
-    res.send({ error: 'Error while creating new user' });
+    res.status(403).send({ error: 'Error while creating new user' });
   }
 });
 
 // $FlowFixMe
 app.get('/logout', (req, res) => {
-  res.send({ isLoggedOut: true });
+  res.status(200).send({ isLoggedOut: true });
 });
 
 app.listen(PORT, console.log(`App works on ${PORT}...`)); // eslint-disable-line no-console
