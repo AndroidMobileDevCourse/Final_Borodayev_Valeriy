@@ -50,6 +50,12 @@ app.post('/signup', async (req, res) => {
 });
 
 // $FlowFixMe
+app.post('/file', (req, res) => {
+  console.log(req.body);
+  res.end();
+});
+
+// $FlowFixMe
 app.get('/logout', (req, res) => {
   res.status(200).send({ isLoggedOut: true });
 });

@@ -46,7 +46,6 @@
     "mongo": "mongo mongodb://frankast:v1v2v3b4@ds255588.mlab.com:55588/smsc",
     "test": "jest && npm run lint && npm run flow",
     "start-watch": "nodemon ./src/index.js --exec babel-node",
-    "start": "./node_modules/.bin/babel-node ./src/index.js",
-    "run-d": "./node_modules/.bin/babel-node ./src/ddos.js"
+    "start": "./node_modules/.bin/babel-node ./src/index.js"
   }
 }
