@@ -20,6 +20,24 @@
         <dex dex="/Users/valerijborodaev/Desktop/sandbox/study/java/android/AuthExample/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0b70e3ed1a45c5b6ecdbe79fffc531bd4f417cc5/classes.dex" />
     </item>
     <item
+        is-multidex="true"
+        jar="/Users/valerijborodaev/Desktop/backAuth/AuthExample/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.2"
+        sha1="b887a3286d07dc679f1c62429c429557d044f462">
+        <dex dex="/Users/valerijborodaev/Desktop/backAuth/AuthExample/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d0e76fd6d150db6ec562d03cebaf86f6a3c71e1b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/valerijborodaev/Desktop/backAuth/AuthExample/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.2"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="/Users/valerijborodaev/Desktop/backAuth/AuthExample/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e39b6ffa46d1fb4b38181a5b4c25f3dee4446f2c/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/valerijborodaev/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
         jumboMode="false"

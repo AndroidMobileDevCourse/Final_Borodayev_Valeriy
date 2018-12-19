@@ -1,12 +1,14 @@
 // @flow
 
 import express from 'express';
+import path from 'path';
 // $FlowFixMe
 import bodyParser from 'body-parser';
 // $FlowFixMe
 import cookieParser from 'cookie-parser';
 // $FlowFixMe
 import morgan from 'morgan';
+import multer from 'multer';
 import { User } from './User';
 import DB from './db';
 
@@ -19,6 +21,8 @@ app.use(bodyParser.json({ type: 'application/json' }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(morgan('tiny'));
+
+const upload = multer({ dest: path.resolve(__dirname, '../uploads') })
 
 // $FlowFixMe
 app.post('/login', async (req, res) => {
@@ -50,7 +54,8 @@ app.post('/signup', async (req, res) => {
 });
 
 // $FlowFixMe
-app.post('/file', (req, res) => {
+app.post('/file', upload.single('image'), (req, res) => {
+  console.log(req.file);
   console.log(req.body);
   res.end();
 });
