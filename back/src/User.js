@@ -10,6 +10,7 @@ export const UserSchema = new mongoose.Schema(
     lname: String,
     email: String,
     password: String,
+    images: [String],
   },
   {
     timestamps: true,
