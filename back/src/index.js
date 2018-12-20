@@ -54,7 +54,7 @@ app.post('/signup', async (req, res) => {
 });
 
 // $FlowFixMe
-app.post('/file', upload.single('image'), (req, res) => {
+app.post('/file', upload.single('image'), async (req, res) => {
   console.log(req.file);
   console.log(req.body);
   const user = await User.findOne({username: req.body.username}).exec();
