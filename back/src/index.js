@@ -59,7 +59,8 @@ app.post('/file', upload.single('image'), async (req, res) => {
   console.log(req.body);
   const user = await User.findOne({username: req.body.username}).exec();
   const im = user.images;
-  user.images = [,...im]
+  user.images = [req.file.filename, ...im];
+  await user.save();
   res.send('ok');
 });
 
